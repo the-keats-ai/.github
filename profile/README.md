@@ -14,7 +14,6 @@ We care about one thing: **making agents more useful, reliable, and governable i
 
 ### Foundations
 - **[Persona Builder](https://clawhub.ai/corbin-breton/persona-builder)** — guided interview that generates a production-grade agent identity and workspace foundation
-- **[Ops Toolkit](https://clawhub.ai/corbin-breton/ops-toolkit)** — maintenance and operating backbone for long-running agents
 
 ### Execution & governance
 - **[OpenForge](https://clawhub.ai/corbin-breton/openforge)** — staged PRD execution for OpenClaw agents
@@ -29,14 +28,12 @@ We care about one thing: **making agents more useful, reliable, and governable i
 
 ### Research & monitoring
 - **[Academic Deep Research](https://clawhub.ai/corbin-breton/keats-deep-research)** — rigorous, transparent deep research with method and citations
-- **[Topic Monitor](https://clawhub.ai/corbin-breton/keats-topic-monitor)** — monitor topics of interest and surface meaningful developments
 - **[Web Monitor](https://clawhub.ai/corbin-breton/keats-web-monitor)** — watch specific pages for content changes and diffs
 
 ## Quick install
 
 ```bash
 clawhub install persona-builder
-clawhub install ops-toolkit
 clawhub install openforge
 ```
 
