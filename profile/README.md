@@ -2,40 +2,65 @@
 
 **Tools for agents that work.** Built from real operation, not theory.
 
-We build open-source skills and tools for [OpenClaw](https://openclaw.ai) — the self-hosted AI agent platform. Everything here comes from running a production AI agent system and extracting what actually works.
+Keats AI builds practical systems for [OpenClaw](https://openclaw.ai):
+- reusable skills
+- operational patterns
+- agent foundations
+- real workflows extracted from running agents in production
 
-## Products
+We care about one thing: **making agents more useful, reliable, and governable in the real world**.
 
-### 🔥 [The Keats Blueprint](https://keats-ai.dev/blueprint)
-The complete operational playbook for AI agent systems. Identity, memory, trust, automation — built from thousands of hours of real agent operation.
+## What we make
 
-### 🛠️ Skills
+### Foundations
+- **[Persona Builder](https://clawhub.ai/corbin-breton/persona-builder)** — guided interview that generates a production-grade agent identity and workspace foundation
+- **[Ops Toolkit](https://clawhub.ai/corbin-breton/ops-toolkit)** — maintenance and operating backbone for long-running agents
 
-| Skill | Description | Status |
-|-------|-------------|--------|
-| **[OpenForge](https://github.com/the-keats-ai/openforge)** | Multi-model PRD execution with escalation + scope enforcement | ✅ [Live on ClawHub](https://clawhub.ai/corbin-breton/openforge) |
-| **[Persona Builder](https://clawhub.ai/corbin-breton/persona-builder)** | Structured interview → 5 identity files for your agent | ✅ Published |
-| **[Ops Toolkit](https://clawhub.ai/corbin-breton/ops-toolkit)** | Nightly extraction, morning briefs, memory decay sweeps | ✅ Published |
-| **Dream Cycle** | Autonomous overnight research + improvement staging | 🔜 Coming Soon |
+### Execution & governance
+- **[OpenForge](https://clawhub.ai/corbin-breton/openforge)** — staged PRD execution for OpenClaw agents
+- **[Repo Guardian](https://clawhub.ai/corbin-breton/repo-guardian)** — PR review governance and repository maintenance automation
+- **[Adversarial Code Reviewer](https://clawhub.ai/corbin-breton/adversarial-code-reviewer)** — rigorous, adversarial code review for code and PRs
+- **[QA Gate](https://clawhub.ai/corbin-breton/qa-gate)** — final quality validation before release or publication
 
-Install published skills:
+### Design & frontend
+- **[Frontend Design](https://clawhub.ai/corbin-breton/keats-frontend-design)** — distinctive, production-grade frontend design
+- **[Design Engineering](https://clawhub.ai/corbin-breton/design-engineering)** — design-heavy implementation orchestration and refinement
+- **[Webapp Testing](https://clawhub.ai/corbin-breton/keats-webapp-testing)** — browser-based testing and UI validation for local web apps
+
+### Research & monitoring
+- **[Academic Deep Research](https://clawhub.ai/corbin-breton/keats-deep-research)** — rigorous, transparent deep research with method and citations
+- **[Topic Monitor](https://clawhub.ai/corbin-breton/keats-topic-monitor)** — monitor topics of interest and surface meaningful developments
+- **[Web Monitor](https://clawhub.ai/corbin-breton/keats-web-monitor)** — watch specific pages for content changes and diffs
+
+## Quick install
+
 ```bash
-clawhub install openforge
 clawhub install persona-builder
 clawhub install ops-toolkit
+clawhub install openforge
 ```
 
-More public skills are listed on the website skills page:
-- https://keats-ai.dev/skills
+Browse the full public skill catalog here:
+- **[keats-ai.dev/skills](https://keats-ai.dev/skills)**
+
+## Product direction
+
+We are building toward a more complete agent stack:
+- identity and memory foundations
+- operational hygiene and governance
+- execution pipelines for real work
+- research, monitoring, and validation loops
+- productized operational playbooks
 
 ## Philosophy
 
-- **Evidence before claims.** Ship what works, document what doesn't.
-- **Agents are partners, not toys.** Identity, memory, and trust matter.
-- **Open source the tools.** Keep the playbook as the product.
+- **Evidence before claims.** Ship what survives contact with reality.
+- **Agents need operating structure.** Identity, memory, trust, and governance matter.
+- **Reliability beats demos.** The goal is sustained usefulness, not novelty theater.
+- **Open tools, sharp boundaries.** Share what helps others build; keep private systems and product IP properly scoped.
 
 ## Links
 
 - 🌐 **Website:** [keats-ai.dev](https://keats-ai.dev)
-- 📦 **Skills:** [ClawHub](https://clawhub.ai/corbin-breton/openforge)
+- 📦 **ClawHub publisher:** [corbin-breton on ClawHub](https://clawhub.ai/corbin-breton)
 - 🦞 **Platform:** [OpenClaw](https://openclaw.ai)
